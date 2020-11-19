@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --background-blue-color:#048ABF;
+    --main-blue-color: #04B2D9;
+    --secondary-orange-color: #FF9A0D;
+    --third-red-color:#E50027;
+    --fourth-red-color: #00DC7F;
+    --fifth-white-color:#FFFFFF;
+
+    --font: 'Montserrat';
+
+}
+
+body {font-family: var(--font);}
+
+.sign-up-login {
+    background: var(--background-blue-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-mujer-segura-auth {
+    width: 70%;
+    height: auto;
+}
+/* .form-sign-up {
+    margin-top: 40px;
+} */
+
+.form-input, .form-group-input {
+    background: none;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    border: 2px solid var(--fifth-white-color);
+    border-radius: 15px;
+    width: 65vw;
+    max-width: 350px;
+    height: 40px;
+    font-size: 16px;
+    color: var(--fifth-white-color);
+    padding: 0;
+    margin: 20px auto;
+}
+
+::placeholder {
+    color: var(--fifth-white-color);
+    font-family: var(--font);
+}
+
+.form-group-input {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-password {
+    border: none;
+    background: none;
+    font-size: 16px;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: var(--fifth-white-color);
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fas fa-eye, .fas fa-eye-slash {
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+    width: 65vw;
+    max-width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: var(--secondary-orange-color);
+    font-family: var(--font);
+    color: var(--fifth-white-color);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.058);
+    font-size: 16px;
+}
+
+.text-sn-sign-up {
+    text-align: center;
+    margin-top: 15px;
+    color: var(--fifth-white-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fifth-white-color);
+}
+
+.form-message, .form-message-successful {display: none;}
+
+.form-message-active, .form-message-successful-active {display: block;}
+
+.form-group-wrong {
+    border: 2px solid var(--third-red-color);
+	color: var(--third-red-color);
+}
+
+.form-input-error {
+	font-size: 12px;
+	margin-top: -10px;
+    text-align: center;
+}
+
+#eye-open {display: none;}
+
+.show {display: block;}
+
+.hide {display: none;}
+
+/*--------- ESTILOS TABLET ---------*/
+/* @media screen and (min-width: 768px) {
+    
+    .sign-up {
+        background: url(../images/Mobile_bg_Leratto.jpg) center no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    } 
+
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .form-sign-up {
+        margin-top: 0px;
+    }
+
+    .form-input, .form-group-input {
+        font-size: 18px;
+        margin-top: 30px;
+        border-radius: 25px;
+        width: 50vw;
+        max-width: 350px;
+        max-width: 400px;
+        height: 40px;
+    }
+    .form-input-error {
+        font-size: 14px;
+    }
+    .text-sn-sign-up{
+        font-size: 1.15em;
+    }
+} */
+
+/*--------- ESTILOS DESKTOP ---------*/
+/* @media screen and (min-width: 1024px) {
+
+    .logo{
+        width: 170px;
+        height: 170px;
+    }
+
+    .sign-up-login {
+        background: url(../images/backgroung_Leratto.JPG) center no-repeat; 
+        background-attachment: fixed;
+        background-size: cover;
+        box-sizing: border-box;
+    } 
+
+    .form-container {
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 50%;
+        max-width: 500px;
+        position: relative;
+        background-color: transparent;
+        padding: 2%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */

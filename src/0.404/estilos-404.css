@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --background-blue-color:#048ABF;
+  --main-blue-color: #04B2D9;
+  --secondary-orange-color: #FF9A0D;
+  --third-red-color:#E50027;
+  --fourth-red-color: #00DC7F;
+}
+
+.no-found {
+    background-color:var(--background-blue-color);
+}
+.container p-4{
+    background-color: #111319;
+}
+

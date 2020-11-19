@@ -1,0 +1,51 @@
+:root {
+    --background-blue-color:#048ABF;
+    --main-blue-color: #04B2D9;
+    --secondary-orange-color: #FF9A0D;
+    --third-red-color:#E50027;
+    --fourth-red-color: #00DC7F;
+}
+
+.welcome{
+    background:var(--background-blue-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome p {
+    color:white;
+    text-align: center;
+}
+
+.logo-mujer-segura {
+    width: 70%;
+    height: auto;
+    max-width: 500px;
+}
+
+.image-mujeres-seguras {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+}
+
+.welcome-title{
+    text-align: center;
+    font-size: 18px;
+}
+
+.info{
+padding: 30px;
+padding-top:0px;
+text-align: justify;
+}
